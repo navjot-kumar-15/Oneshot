@@ -1,0 +1,74 @@
+@media (max-width:967px) {
+    html {
+        font-size: 60%;
+    }
+
+    header {
+        background-image: var(--hero-bg);
+        text-align: center;
+        height: 150vh;
+    }
+
+    .hero-part .left {
+        margin-top: -8rem;
+        /* border: 2px solid black; */
+        /* margin: 0 auto; */
+    }
+
+    .hero-part .left h1 {
+        font-size: 4rem;
+        margin-top: 8rem;
+        /* text-align: center; */
+        margin-left: 4rem;
+    }
+
+    .hero-part .left p {
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero-part .left .main-btn {
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid red; */
+        width: 80%;
+        text-align: center;
+        margin-left: -6.9rem;
+        margin-top: 1.5rem;
+    }
+
+    .hero-part .left .main-btn a {
+        font-size: .8rem;
+        width: 14vw;
+        /* height: 5vh; */
+        /* margin: 0 auto; */
+        /* margin-left: 1rem; */
+    }
+
+    .hero-part .left .main-btn i {
+        font-size: .9rem;
+        text-align: center;
+        /* width: 8vw; */
+        margin-left: -.5rem;
+    }
+
+    .hero-part .right img {
+        /* margin-top: -40rem; */
+        height: 70vh;
+
+
+
+    }
+
+    .hero-part .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-2 .cards {
+
+        gap: 2rem;
+    }
+
+}
